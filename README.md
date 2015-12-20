@@ -37,7 +37,7 @@ numerical methods is assumed, as well as Matlab programming.
 ## Prerequisites
 
 * A numerical analysis course (MSE XXX or equivalent)
-* A laptop in class for exercises and debugging git workflow, etc.
+* A laptop in class for exercises and debugging Git workflow, etc.
 
 These won't be enforced by the instructor, but you will be pretty lost
 without some numerical analysis background, and not having a laptop
@@ -57,8 +57,6 @@ Students will develop a simple multigrid solver in Matlab.
 The course will be co-instructed, via advanced teleconferencing
 facilites, with courses at Rice University and KAUST.
 
-All documents will be communicated using git and hosted on github.com
-
 ## Homework/Projects
 
 Homework assignment will be given weekly as well as programming
@@ -67,19 +65,27 @@ Git, hosted on github.com, will be used for all documents
 
 ### Workflow
 
-If you're using GitHub Desktop, [these instructions](https://help.github.com/desktop/guides/contributing/) will help explain the Git/GitHub concepts. Here are the overall steps:
+All documents will be communicated using Git and hosted on github.com.
+Here are the overall steps:
 
-1. Fork the repository for the exercise/project (found under [github.com/multigrid-courses](https://github.com/multigrid-courses)).
-1. Clone the repository to your computer.
+1. Fork the repository for the exercise or project (found under [github.com/multigrid-courses](https://github.com/multigrid-courses)).
+1. Clone the repository to your computer:
+```
+git clone git@github.com:multigrid-courses/MG1-HW1
+```
 1. Modify the files to complete your solution.
-1. Make sure all of your code is committed.
-1. Push/sync up to GitHub.
+1. Make sure all of your code is committed:
+```
+git commit -am"all done"
+```
+1. Push to GitHub to a branch user/assignment:
+```
+git push -u origin adams/hw1
+```
 1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the original repository. All assignments are due at the start of the following class, unless otherwise specified.
-1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let me know it's been updated.
+1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let us know it's been updated.
 
 Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request as the work is still in-progress if you are stuck and want to ask a question – just mention `@adams` with the question to make sure I know to look at it sooner.
-
-Note that your solution will also be live at `http://USERNAME.github.io/EXERCISE`.  For exercises with multiple levels/versions, leave a new comment in the pull request saying "Level X finished!" before pushing commits for the next level. "BONUS" levels are for extra credit.
 
 ### Requirements
 
@@ -97,7 +103,7 @@ These apply to real life, as well.
 1. Introduction to multigrid history, history of programming paradigms
 in scientific computing, applications of multigrid and outline of
 three course multigrid series, for which this is the first.
-1. Setup git workflow work on students laptops
+1. Setup Git workflow work on students laptops
 
 #### Homework
 
