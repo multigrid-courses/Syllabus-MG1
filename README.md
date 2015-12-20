@@ -1,5 +1,5 @@
 # Syllabus-MG1
-# Introduction to multigrid with applications to elliptic and hyperbolic problems
+# Introduction to multigrid methods with applications to elliptic and hyperbolic problems
 * **Course:** [CMSE801, MSU](https://cmse.msu.edu/)
 * **Instructor:** Mark Adams, [adams@msu.edu](adams@msu.edu)
 * **Need help?**
@@ -25,7 +25,7 @@ numerical methods is assumed, as well as Matlab programming.
 
 ##  Overview of Multigrid Course Series 
 
-1. Introduction to multigrid with applications to elliptic and
+1. Introduction to multigrid methods with applications to elliptic and
    hyperbolic problems (this course)
 1. MG2: Algebraic Multigrid with application to elasticity
 1. MG3: Contemporary Multigrid: hybrid structured/unstructured adaptive mesh refinement, hyperbolic
