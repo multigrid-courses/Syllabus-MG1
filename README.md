@@ -18,7 +18,8 @@ This is a graduate level coarse intended for a wide audience in the
 computational sciences.  Some analysis is presented but advanced multigrid
 theory, which is thoroughly covered by Hackbusch (1985), is not
 presented; we will use the Wesseling (1992) book *An introduction to
-multigrid methods*.
+multigrid methods*;  Trottenberg et al, *Multigrid* is an excellent
+book and is recommended as a reference.
 A basic knowlege of analysis, partial differential equations, and
 numerical methods is assumed, as well as Matlab programming.
 
@@ -84,7 +85,7 @@ These apply to real life, as well.
 
 * Any borrowed code must be properly [annotated](http://documentup.com/advanced-js/syllabus#statements-on-plagiarism/instructor).
 * Bonus points for:
-    * [Automated tests](#test-frameworks)
+    * Automated tests
     * Creativity (as long as requirements are fulfilled)
 
 ## Course Outline
@@ -109,7 +110,6 @@ three course multigrid series, for which this is the first.
 
 * 
 * 
-
 ### Class 20
 
 1. Computational fluid dynamics
