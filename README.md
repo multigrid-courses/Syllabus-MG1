@@ -25,12 +25,14 @@ numerical methods is assumed, as well as Matlab programming.
 
 ##  Overview of Multigrid Course Series 
 
-* MG1: Multigrid fundamental and classic multigrid methods and
-  analysis (this course)
-* MG2: Algebraic Multigrid with application to elasticity
-* MG3: Multigrid for emerging architectures: classic geometric multigrid,
-  hybrid structured/unstructured adaptive mesh refinement, hyperbolic
-  problems, on emerging architectures, with applications to magnetohydrodynamics.
+1. Fundamentals of multigrid with applications to elliptic and
+   hyperbolic problems (this course)
+1. MG2: Algebraic Multigrid with application to elasticity
+1. MG3: Contemporary Multigrid: hybrid structured/unstructured adaptive mesh refinement, hyperbolic
+  problems with geometric multigrid, on emerging architectures,
+  advance scientific software engineering in the Portable Extensible
+  Toolkit for Scientific Computing (PETSc) with applications to
+  magnetohydrodynamics and computational fluid dynamics.
 
 ## Prerequisites
 
@@ -109,7 +111,8 @@ three course multigrid series, for which this is the first.
 #### Homework
 
 * 
-* 
+*
+
 ### Class 20
 
 1. Computational fluid dynamics
