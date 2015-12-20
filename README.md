@@ -103,30 +103,258 @@ These apply to real life, as well.
 1. Introduction to multigrid history, history of programming paradigms
 in scientific computing, applications of multigrid and outline of
 three course multigrid series, for which this is the first.
-1. Setup Git workflow work on students laptops
+1. Setup Git workflow work on student's laptops
+1. Multigrid framework: local and global processing [Y5:32]
 
 #### Homework
 
-* Read [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2.1 & 2.2
-* Do Exercise 2.2.1 in Wesseling
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2.1 & 2.2
+* Exercise 2.2.1 in Wesseling (HW1)
+
+### Class 2
+
+1. Analysis of simple iterative method and multilevel application [Y33-46,Y60-87]
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 0 from Yavneh (HW2)
+
+### Class 3
+
+1. The model problem, cyclic reduction, [Y47-53]
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 1 from Yavneh (HW3)
+
+
+### Class 4
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 5
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 6
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 7
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 8
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 9
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 10
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 11
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 12
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 13
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 14
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 15
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 16
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 17
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
 
 ### Class 18
 
-1. Modern discretization methods: Finite element and finite volume
+1. 
 
 #### Homework
 
-* 
-*
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+
+### Class 19
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
 
 ### Class 20
 
-1. Computational fluid dynamics
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+
+### Class 21
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+
+### Class 22
+
+1. 
+
+#### Homework
+
+* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* Exercise 2.2.1 in Wesseling
+
+
+### Class 23
+
+1. Multigrid methods for computational fluid dynamics
 
 #### Homework
 
 * 
+
+### Class 24
+
+1. Multigrid methods for computational fluid dynamics
+
+#### Homework
+
 * 
+### Class 25
+
+1.  Multigrid methods for magnetohydrodynamics
+
+#### Homework
+
+*
+
+### Class 26
+
+1. Modern mesh generation for fast multigrid solvers - hybrid
+   structured/unstructured forest of octrees.
+
+#### Homework
+
 
 ### Class 27
 
@@ -135,8 +363,6 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* 
-* 
 
 ## [Statements on Plagiarism](https://www.msu.edu/~ombud/academic-integrity/plagiarism-policy.html)
 
