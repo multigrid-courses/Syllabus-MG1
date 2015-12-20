@@ -109,6 +109,7 @@ three course multigrid series, for which this is the first.
 
 * 
 * 
+
 ### Class 20
 
 1. Computational fluid dynamics
