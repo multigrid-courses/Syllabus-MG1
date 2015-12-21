@@ -65,13 +65,13 @@ facilites, with courses at Rice University and KAUST.
 ## Course Material
 
 *
-  [*An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
-  by Wessling, is the main text
+[*An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
+by Wessling, is used as the main text
 * [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC)
-Trottenberg, Oosterlee, and Schüller, is an excellent book and is recommended as a reference
+Trottenberg, Oosterlee, and Schüller, is an excellent book and is
+recommended as a reference
 *
-  [A Multigrid Tutorial](https://books.google.com/books/about/A_Multigrid_Tutorial.html?id=oSTGBm64o1AC)
-  by Briggs, Henson, and McCormick, is a good general multigrid tutorial
+[*A Multigrid Tutorial*](https://books.google.com/books/about/A_Multigrid_Tutorial.html?id=oSTGBm64o1AC)  by Briggs, Henson, and McCormick, is a good general multigrid tutorial
 
 ### Workflow
 
