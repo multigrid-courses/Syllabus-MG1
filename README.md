@@ -13,7 +13,7 @@ This is a graduate level coarse on Multigrid methods and is intended for a wide 
 computational sciences.  Some analysis is presented but advanced multigrid
 theory, which is thoroughly covered by
 [Hackbusch (1985)](https://books.google.com/books/about/Multi_grid_methods_and_applications.html?id=Vf8_AQAAIAAJ),
-is not presented. A basic knowlege of analysis, partial differential equations, and
+is not presented. A basic knowledge of analysis, partial differential equations, and
 numerical methods is assumed, as well as some experience with
 programming. We use Matlab from programming assignments and
 Git, hosted at [GitHub](https://github.com), for code and document management.
