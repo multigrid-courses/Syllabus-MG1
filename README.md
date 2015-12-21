@@ -17,8 +17,8 @@ is not presented. A basic knowlege of analysis, partial differential equations, 
 numerical methods is assumed, as well as some experience with
 programming. We use Matlab from programming assignments and
 Git, hosted at [GitHub](https://github.com), for code and document management.
-This coarse serves as a de facto introduction to modern software
-engineering.
+This coarse introduces some ideas in modern software engineering such
+as distributed repositories and collaboration.
 
 ##  Overview of Multigrid Course Series 
 
@@ -60,7 +60,7 @@ projects and Git, hosted at [GitHub](https://github.com), for code and
 document management.
 
 The course will be co-instructed, via advanced teleconferencing
-facilites, with courses at Rice University and KAUST.
+facilities, with courses at Rice University and KAUST.
 
 ## Course Material
 
