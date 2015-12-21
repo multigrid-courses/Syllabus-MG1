@@ -1,7 +1,7 @@
 # Syllabus-MG1
 # Introduction to multigrid methods with applications to elliptic and hyperbolic problems
-* **Course:** [CMSE801, MSU](https://cmse.msu.edu/)
-* **Instructor:** Mark Adams, [adams@msu.edu](adams@msu.edu)
+* **Course:** [CMSE801, MSU](https://cmse.msu.edu/ "class home page?????")
+* **Instructor:** Mark Adams, [adams@msu.edu](adams@msu.edu "Instructor")
 * **Need help?**
     * Look through and create [issues](https://github.com/multigrid-courses/Syllabus-MG1/issues)
     * Office Hours: 
@@ -9,26 +9,23 @@
 
 ## Course Description
 
-Introduction to classic geometric multigrid methods,
-theory and practice, for elliptic and hyperbolic problems.  Algebraic
-multigrid methods and methods for emerging architectures
-will be covered in subsequent courses.
-
-This is a graduate level coarse intended for a wide audience in the
+This is a graduate level coarse on Multigrid methods and is intended for a wide audience in the
 computational sciences.  Some analysis is presented but advanced multigrid
-theory, which is thoroughly covered by Hackbusch (1985), is not
-presented; we will use the Wesseling (1992) book *An introduction to
-multigrid methods*;  Trottenberg et al, *Multigrid* is an excellent
-book and is recommended as a reference.
-A basic knowlege of analysis, partial differential equations, and
-numerical methods is assumed, as well as Matlab programming.
+theory, which is thoroughly covered by
+[Hackbusch (1985)](https://books.google.com/books/about/Multi_grid_methods_and_applications.html?id=Vf8_AQAAIAAJ),
+is not presented. A basic knowlege of analysis, partial differential equations, and
+numerical methods is assumed, as well as some experience with
+programming. We use Matlab from programming assignments and
+Git, hosted at [GitHub](https://github.com), for code and document management.
+This coarse serves as a de facto introduction to modern software
+engineering.
 
 ##  Overview of Multigrid Course Series 
 
-1. Introduction to multigrid methods with applications to elliptic and
+1. **MG1**: Introduction to multigrid methods with applications to elliptic and
    hyperbolic problems (this course)
-1. MG2: Algebraic Multigrid with application to elasticity
-1. MG3: Contemporary Multigrid: hybrid structured/unstructured adaptive mesh refinement, hyperbolic
+1. **MG2**: Algebraic Multigrid with application to elasticity
+1. **MG3**: Contemporary Multigrid: hybrid structured/unstructured adaptive mesh refinement, hyperbolic
   problems with geometric multigrid, on emerging architectures,
   advance scientific software engineering in the Portable Extensible
   Toolkit for Scientific Computing (PETSc) with applications to
@@ -37,11 +34,17 @@ numerical methods is assumed, as well as Matlab programming.
 ## Prerequisites
 
 * A numerical analysis course (MSE XXX or equivalent)
-* A laptop in class for exercises and debugging Git workflow, etc.
+* A laptop in class for exercises, etc.
 
 These won't be enforced by the instructor, but you will be pretty lost
 without some numerical analysis background, and not having a laptop
 will encumber some hands-on class work.
+
+* Some familiarity with
+  [Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github) is
+  suggested.
+* Students should create a personal account on
+[GitHub](https://github.com/join) before the first class
 
 ## Course Overview
 
@@ -52,21 +55,25 @@ elliptic and hyperbolic problems. We will consider operator dependent
 intergrid transfer operators and applications to problems in
 computational fluid dynamics.
 
-Students will develop a simple multigrid solver in Matlab.
+Students will develop a multigrid solver in Matlab for programming
+projects and Git, hosted at [GitHub](https://github.com), for code and
+document management.
 
 The course will be co-instructed, via advanced teleconferencing
 facilites, with courses at Rice University and KAUST.
 
-## Homework/Projects
+## Course Material
 
-Homework assignment will be given weekly as well as programming
-assignments.
-Git, hosted on github.com, will be used for all documents
+* We will use
+    [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
+* Trottenberg et al, [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC) is an excellent book and is recommended as a reference
+* [A Multigrid Tutorial](https://books.google.com/books/about/A_Multigrid_Tutorial.html?id=oSTGBm64o1AC)
+  is a good book as well
 
 ### Workflow
 
-All documents will be communicated using Git and hosted on github.com.
-Here are the overall steps:
+All code and documents will be managed using Git and hosted on [GitHub](https://github.com).
+Here are the overall steps to turning in a homework assignment:
 
 1. Fork the repository for the exercise or project (found under [github.com/multigrid-courses](https://github.com/multigrid-courses)).
 1. Clone the repository to your computer:
@@ -89,12 +96,8 @@ Feedback will be given in the pull request, so please respond with your thoughts
 
 ### Requirements
 
-These apply to real life, as well.
-
 * Any borrowed code must be properly [annotated](http://documentup.com/advanced-js/syllabus#statements-on-plagiarism/instructor).
-* Bonus points for:
-    * Automated tests
-    * Creativity (as long as requirements are fulfilled)
+* Bonus points for Creativity (as long as requirements are fulfilled)
 
 ## Course Outline
 
@@ -103,8 +106,12 @@ These apply to real life, as well.
 1. Introduction to multigrid history, history of programming paradigms
 in scientific computing, applications of multigrid and outline of
 three course multigrid series, for which this is the first.
-1. Setup Git workflow work on student's laptops
+1. Setup Git workflow work on student's laptops, add a line in the
+  [class roster](https://github.com/multigrid-courses/Syllabus-MG1/roster.md)
+  and submit a pull request.
 1. Multigrid framework: local and global processing [Y5:32]
+
+[class roster in Markdown file: name, year, major, do you have an application in mind?, ]
 
 #### Homework
 
