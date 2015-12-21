@@ -88,7 +88,7 @@ git commit -am"all done"
 ```
 1. Push to GitHub to a branch user/assignment:
 ```
-git push -u origin adams/hw1
+git push -u origin username/hw1
 ```
 1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the original repository. All assignments are due at the start of the following class, unless otherwise specified.
 1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let us know it's been updated.
