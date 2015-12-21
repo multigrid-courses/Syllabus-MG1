@@ -65,7 +65,7 @@ facilities, with courses at Rice University and KAUST.
 ## Course Material
 
 * [*An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
-by Wessling, is used as the main text
+by Wesseling, is used as the main text
 * [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC)
 Trottenberg, Oosterlee, and Schüller, is an excellent book and is
 recommended as a reference
@@ -88,7 +88,7 @@ git commit -am"all done"
 ```
 1. Push to GitHub to a branch user/assignment:
 ```
-git push -u origin username/hw1
+git push -u origin name/hw1
 ```
 1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the original repository. All assignments are due at the start of the following class, unless otherwise specified.
 1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let us know it's been updated.
@@ -116,7 +116,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2.1 & 2.2
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2.1 & 2.2
 * Exercise 2.2.1 in Wesseling (HW1)
 
 ### Class 2
@@ -125,7 +125,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 0 from Yavneh (HW2)
 
 ### Class 3
@@ -134,7 +134,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 1 from Yavneh (HW3)
 
 
@@ -144,7 +144,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -154,7 +154,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -164,7 +164,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -174,7 +174,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -184,7 +184,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -194,7 +194,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -204,7 +204,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -214,7 +214,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -224,7 +224,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -234,7 +234,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -244,7 +244,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -254,7 +254,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -264,7 +264,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -274,7 +274,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -285,7 +285,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -296,7 +296,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -307,7 +307,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -318,7 +318,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
@@ -329,7 +329,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesslings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
 * Exercise 2.2.1 in Wesseling
 
 
