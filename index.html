@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Syllabus-mg1 by multigrid-courses</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Syllabus-mg1</h1>
+          <h2>Introduction to multigrid methods with applications to elliptic and hyperbolic problems</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/multigrid-courses/Syllabus-MG1/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/multigrid-courses/Syllabus-MG1/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/multigrid-courses/Syllabus-MG1" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="syllabus-mg1" class="anchor" href="#syllabus-mg1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Syllabus-MG1</h1>
+
+<h1>
+<a id="introduction-to-multigrid-methods-with-applications-to-elliptic-and-hyperbolic-problems" class="anchor" href="#introduction-to-multigrid-methods-with-applications-to-elliptic-and-hyperbolic-problems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction to multigrid methods with applications to elliptic and hyperbolic problems</h1>
+
+<ul>
+<li>
+<strong>Course:</strong> <a href="https://cmse.msu.edu/" title="class home page?????">CMSE801, MSU</a>
+</li>
+<li>
+<strong>Instructor:</strong> Mark Adams, <a href="adams@msu.edu" title="Instructor">adams@msu.edu</a>
+</li>
+<li>
+<strong>Need help?</strong>
+
+<ul>
+<li>Look through and create <a href="https://github.com/multigrid-courses/Syllabus-MG1/issues">issues</a>
+</li>
+<li>Office Hours: </li>
+<li>
+<a href="adams@msu.edu">Email</a> for 1-on-1 help, or to set up a time to meet</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="course-description" class="anchor" href="#course-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Description</h2>
+
+<p>This is a graduate level coarse on Multigrid methods and is intended for a wide audience in the
+computational sciences.  Some analysis is presented but advanced multigrid
+theory, which is thoroughly covered by
+<a href="https://books.google.com/books/about/Multi_grid_methods_and_applications.html?id=Vf8_AQAAIAAJ">Hackbusch (1985)</a>,
+is not presented. A basic knowlege of analysis, partial differential equations, and
+numerical methods is assumed, as well as some experience with
+programming. We use Matlab from programming assignments and
+Git, hosted at <a href="https://github.com">GitHub</a>, for code and document management.
+This coarse serves as a de facto introduction to modern software
+engineering.</p>
+
+<h2>
+<a id="overview-of-multigrid-course-series" class="anchor" href="#overview-of-multigrid-course-series" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview of Multigrid Course Series</h2>
+
+<ol>
+<li>
+<strong>MG1</strong>: Introduction to multigrid methods with applications to elliptic and
+hyperbolic problems (this course)</li>
+<li>
+<strong>MG2</strong>: Algebraic Multigrid with application to elasticity</li>
+<li>
+<strong>MG3</strong>: Contemporary Multigrid: hybrid structured/unstructured adaptive mesh refinement, hyperbolic
+problems with geometric multigrid, on emerging architectures,
+advance scientific software engineering in the Portable Extensible
+Toolkit for Scientific Computing (PETSc) with applications to
+magnetohydrodynamics and computational fluid dynamics.</li>
+</ol>
+
+<h2>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<ul>
+<li>A numerical analysis course (MSE XXX or equivalent)</li>
+<li>A laptop in class for exercises, etc.</li>
+</ul>
+
+<p>These won't be enforced by the instructor, but you will be pretty lost
+without some numerical analysis background, and not having a laptop
+will encumber some hands-on class work.</p>
+
+<ul>
+<li>Some familiarity with
+<a href="https://help.github.com/articles/good-resources-for-learning-git-and-github">Git and GitHub</a> is
+suggested.</li>
+<li>Students should create a personal account on
+<a href="https://github.com/join">GitHub</a> before the first class</li>
+</ul>
+
+<h2>
+<a id="course-overview" class="anchor" href="#course-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Overview</h2>
+
+<p>We will cover basic iterative methods, Local Fourier Analysis (LFA),
+and two grid analysis. We go over basic smoother methods and intergrid
+transfer operators and analysis their potential efficacy on model
+elliptic and hyperbolic problems. We will consider operator dependent
+intergrid transfer operators and applications to problems in
+computational fluid dynamics.</p>
+
+<p>Students will develop a multigrid solver in Matlab for programming
+projects and Git, hosted at <a href="https://github.com">GitHub</a>, for code and
+document management.</p>
+
+<p>The course will be co-instructed, via advanced teleconferencing
+facilites, with courses at Rice University and KAUST.</p>
+
+<h2>
+<a id="course-material" class="anchor" href="#course-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Material</h2>
+
+<ul>
+<li>We will use
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a>
+</li>
+<li>Trottenberg et al, <a href="https://books.google.com/books?id=-og1wD-Nx_wC"><em>Multigrid</em></a> is an excellent book and is recommended as a reference</li>
+<li>
+<a href="https://books.google.com/books/about/A_Multigrid_Tutorial.html?id=oSTGBm64o1AC">A Multigrid Tutorial</a>
+is a good book as well</li>
+</ul>
+
+<h3>
+<a id="workflow" class="anchor" href="#workflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow</h3>
+
+<p>All code and documents will be managed using Git and hosted on <a href="https://github.com">GitHub</a>.
+Here are the overall steps to turning in a homework assignment:</p>
+
+<ol>
+<li>Fork the repository for the exercise or project (found under <a href="https://github.com/multigrid-courses">github.com/multigrid-courses</a>).</li>
+<li>Clone the repository to your computer:</li>
+</ol>
+
+<pre><code>git clone git@github.com:multigrid-courses/MG1-HW1
+</code></pre>
+
+<ol>
+<li>Modify the files to complete your solution.</li>
+<li>Make sure all of your code is committed:</li>
+</ol>
+
+<pre><code>git commit -am"all done"
+</code></pre>
+
+<ol>
+<li>Push to GitHub to a branch user/assignment:</li>
+</ol>
+
+<pre><code>git push -u origin adams/hw1
+</code></pre>
+
+<ol>
+<li>
+<a href="https://help.github.com/articles/creating-a-pull-request/">Create a pull request</a> on the original repository. All assignments are due at the start of the following class, unless otherwise specified.</li>
+<li>You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let us know it's been updated.</li>
+</ol>
+
+<p>Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request as the work is still in-progress if you are stuck and want to ask a question – just mention <code>@adams</code> with the question to make sure I know to look at it sooner.</p>
+
+<h3>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h3>
+
+<ul>
+<li>Any borrowed code must be properly <a href="http://documentup.com/advanced-js/syllabus#statements-on-plagiarism/instructor">annotated</a>.</li>
+<li>Bonus points for Creativity (as long as requirements are fulfilled)</li>
+</ul>
+
+<h2>
+<a id="course-outline" class="anchor" href="#course-outline" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Outline</h2>
+
+<h3>
+<a id="class-1" class="anchor" href="#class-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 1</h3>
+
+<ol>
+<li>Introduction to multigrid history, history of programming paradigms
+in scientific computing, applications of multigrid and outline of
+three course multigrid series, for which this is the first.</li>
+<li>Setup Git workflow work on student's laptops, add a line in the
+<a href="https://github.com/multigrid-courses/Syllabus-MG1/roster.md">class roster</a>
+and submit a pull request.</li>
+<li>Multigrid framework: local and global processing [Y5:32]</li>
+</ol>
+
+<p>[class roster in Markdown file: name, year, major, do you have an application in mind?, ]</p>
+
+<h4>
+<a id="homework" class="anchor" href="#homework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. 1 &amp; 2.1 &amp; 2.2</li>
+<li>Exercise 2.2.1 in Wesseling (HW1)</li>
+</ul>
+
+<h3>
+<a id="class-2" class="anchor" href="#class-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 2</h3>
+
+<ol>
+<li>Analysis of simple iterative method and multilevel application [Y33-46,Y60-87]</li>
+</ol>
+
+<h4>
+<a id="homework-1" class="anchor" href="#homework-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 0 from Yavneh (HW2)</li>
+</ul>
+
+<h3>
+<a id="class-3" class="anchor" href="#class-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 3</h3>
+
+<ol>
+<li>The model problem, cyclic reduction, [Y47-53]</li>
+</ol>
+
+<h4>
+<a id="homework-2" class="anchor" href="#homework-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 1 from Yavneh (HW3)</li>
+</ul>
+
+<h3>
+<a id="class-4" class="anchor" href="#class-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 4</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-3" class="anchor" href="#homework-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-5" class="anchor" href="#class-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 5</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-4" class="anchor" href="#homework-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-6" class="anchor" href="#class-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 6</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-5" class="anchor" href="#homework-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-7" class="anchor" href="#class-7" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 7</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-6" class="anchor" href="#homework-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-8" class="anchor" href="#class-8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 8</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-7" class="anchor" href="#homework-7" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-9" class="anchor" href="#class-9" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 9</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-8" class="anchor" href="#homework-8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-10" class="anchor" href="#class-10" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 10</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-9" class="anchor" href="#homework-9" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-11" class="anchor" href="#class-11" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 11</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-10" class="anchor" href="#homework-10" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-12" class="anchor" href="#class-12" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 12</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-11" class="anchor" href="#homework-11" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-13" class="anchor" href="#class-13" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 13</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-12" class="anchor" href="#homework-12" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-14" class="anchor" href="#class-14" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 14</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-13" class="anchor" href="#homework-13" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-15" class="anchor" href="#class-15" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 15</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-14" class="anchor" href="#homework-14" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-16" class="anchor" href="#class-16" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 16</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-15" class="anchor" href="#homework-15" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-17" class="anchor" href="#class-17" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 17</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-16" class="anchor" href="#homework-16" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-18" class="anchor" href="#class-18" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 18</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-17" class="anchor" href="#homework-17" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-19" class="anchor" href="#class-19" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 19</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-18" class="anchor" href="#homework-18" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-20" class="anchor" href="#class-20" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 20</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-19" class="anchor" href="#homework-19" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-21" class="anchor" href="#class-21" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 21</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-20" class="anchor" href="#homework-20" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-22" class="anchor" href="#class-22" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 22</h3>
+
+<ol>
+<li>
+</ol>
+
+<h4>
+<a id="homework-21" class="anchor" href="#homework-21" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+<a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesslings's <em>An Introduction to Multigrid Methods</em></a> Ch. </li>
+<li>Exercise 2.2.1 in Wesseling</li>
+</ul>
+
+<h3>
+<a id="class-23" class="anchor" href="#class-23" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 23</h3>
+
+<ol>
+<li>Multigrid methods for computational fluid dynamics</li>
+</ol>
+
+<h4>
+<a id="homework-22" class="anchor" href="#homework-22" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li>
+</ul>
+
+<h3>
+<a id="class-24" class="anchor" href="#class-24" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 24</h3>
+
+<ol>
+<li>Multigrid methods for computational fluid dynamics</li>
+</ol>
+
+<h4>
+<a id="homework-23" class="anchor" href="#homework-23" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<ul>
+<li><h3>
+<a id="class-25" class="anchor" href="#class-25" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 25</h3></li>
+</ul>
+
+<ol>
+<li> Multigrid methods for magnetohydrodynamics</li>
+</ol>
+
+<h4>
+<a id="homework-24" class="anchor" href="#homework-24" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<p>*</p>
+
+<h3>
+<a id="class-26" class="anchor" href="#class-26" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 26</h3>
+
+<ol>
+<li>Modern mesh generation for fast multigrid solvers - hybrid
+structured/unstructured forest of octrees.</li>
+</ol>
+
+<h4>
+<a id="homework-25" class="anchor" href="#homework-25" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<h3>
+<a id="class-27" class="anchor" href="#class-27" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class 27</h3>
+
+<ol>
+<li>Modern mesh generation for fast multigrid solvers - hybrid
+structured/unstructured forest of octrees.</li>
+</ol>
+
+<h4>
+<a id="homework-26" class="anchor" href="#homework-26" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
+
+<h2>
+<a id="statements-on-plagiarism" class="anchor" href="#statements-on-plagiarism" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.msu.edu/%7Eombud/academic-integrity/plagiarism-policy.html">Statements on Plagiarism</a>
+</h2>
+
+<p>Reuse and building upon ideas or code are major parts of modern software development.  As a professional programmer you will never write anything from scratch.  This class is structured such that all solutions are public.  You are encouraged to learn from the work of your peers.  I won't hunt down people who are simply copying-and-pasting solutions, because without challenging themselves, they  are simply wasting their time and money taking this class.</p>
+
+<p>Please respect the terms of use and/or license of any code you find, and if you reimplement or duplicate an algorithm or code from elsewhere, credit the original source with an inline comment.</p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+        </section>
+
+        <footer>
+          Syllabus-mg1 is maintained by <a href="https://github.com/multigrid-courses">multigrid-courses</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
