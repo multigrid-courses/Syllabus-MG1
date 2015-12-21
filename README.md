@@ -31,7 +31,7 @@ as distributed repositories and collaboration.
   Toolkit for Scientific Computing (PETSc) with applications to
   magnetohydrodynamics and computational fluid dynamics.
 
-## Prerequisites
+## Prerequisites for MG1
 
 * A numerical analysis course (MSE XXX or equivalent)
 * A laptop in class for exercises, etc.
