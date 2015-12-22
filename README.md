@@ -66,10 +66,14 @@ facilities, with courses at Rice University and KAUST.
 
 * [*An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
 by Wesseling, is used as the main text
+	- May ignore discussion on meshing, parallel programing,
+      "structure diagrams", and skip ILU and complexity analysis
 * [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC)
 Trottenberg, Oosterlee, and Schüller, is an excellent book and is
 recommended as a reference
+	- My multigrid bible
 * [*A Multigrid Tutorial*](https://books.google.com/books/about/A_Multigrid_Tutorial.html?id=oSTGBm64o1AC)  by Briggs, Henson, and McCormick, is a good general multigrid tutorial
+	- Go U.S.A.
 
 ### Workflow
 
@@ -116,222 +120,149 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2.1 & 2.2
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2.1 - 2.4
 * Exercise 2.2.1 in Wesseling (HW1)
+* Exercise 0 & 1 from Yavneh
 
 ### Class 2
 
-1. Analysis of simple iterative method and multilevel application [Y33-46,Y60-87]
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 0 from Yavneh (HW2)
+1. Analysis of simple iterative method and multilevel application [Y33-47,Y48-54]
+1. The model problem, cyclic reduction, [Y48-53]
 
 ### Class 3
 
-1. The model problem, cyclic reduction, [Y47-53]
+1. 2D model problem [Y60-90]
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 1 from Yavneh (HW3)
-
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 3.1-3.5
+* Exercise 2 from Yavneh (HW2)
 
 ### Class 4
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. 2D model problem (continued) [Y60-90]
+1. First multilevel algorithm
 
 ### Class 5
 
-1. 
+1. 1D Model problem revisited - 1D analysis [Y91-104]
+1. Multigrid debugging
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
+  Ch. 4 (basic iterative methods, skim ILU)
+* Exercise 3 from Yavneh (HW3)
 
 ### Class 6
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. IR/ICG Analysis [Y102-115] 
 
 ### Class 7
 
-1. 
+1. Local Fourier Analysis [Y116-~130] 
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 5
+* Exercise 4 from Yavneh (HW4)
 
 ### Class 8
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. Local Fourier Analysis (continued) [Y~130-151]  
 
 ### Class 9
 
-1. 
+1. H-Ellipticity [Y152-163] 
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)  Ch. 3.6, 3.6, 6 (coarse grid approximations and two grid analysis)
+* Exercise 5 from Yavneh (HW5)
 
 ### Class 10
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. Finish up LFA and H-Ellipticity
 
 ### Class 11
 
-1. 
+1. Hyperbolic and asymmetric problems [Y164-191]
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+* Yavneh, "Coarse-Grid Correction of Nonelliptic Problems", SISC 19 (5), 1682-1699 (1998)
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
+  Ch. 7 (smoothing analysis)
+* Exercise 6 from Yavneh (HW6)
 
 ### Class 12
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. Skills used for smoothing parameters
 
 ### Class 13
 
-1. 
+1. Fourier analysis of red-black relaxation [Y192-206]
+
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+* Exercise 8 from Yavneh  (HW7)
 
 ### Class 14
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. Intergrid transfer and non-ellipticity [Y207-240]
 
 ### Class 15
 
-1. 
+1.  Intergrid transfer and non-ellipticity (continued)  [Y207-240]
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
-
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)  Ch. 8 (multigrid algorithms)
+* Exercise 9 from Yavneh (HW8)
+  
 ### Class 16
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. Indefinite operators [Y241-244]
+1. Full multigrid [Y245-249]
+1. Nonlinear multi grid and tau correction [Y250-258]
 
 ### Class 17
 
-1. 
+1. Double discretization [Y259-272]
+1. Systems 
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
-
+* Exercise 10 from Yavneh (HW9)
 
 ### Class 18
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
-
+1. Emerging architectures, parallel programming models and algorithms
 
 ### Class 19
 
-1. 
+1. Emerging architectures, parallel programming models and algorithms (cont)
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
-
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 9 (CFD)
+* Exercise Wesseling ?????
 
 ### Class 20
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
-
+1. Multigrid methods for computational fluid dynamics
 
 ### Class 21
 
-1. 
+1. Multigrid methods for computational fluid dynamics
 
 #### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
 
 
 ### Class 22
 
-1. 
-
-#### Homework
-
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 
-* Exercise 2.2.1 in Wesseling
-
+1. Multigrid methods for computational fluid dynamics
 
 ### Class 23
 
@@ -345,12 +276,9 @@ three course multigrid series, for which this is the first.
 
 1. Multigrid methods for computational fluid dynamics
 
-#### Homework
-
-* 
 ### Class 25
 
-1.  Multigrid methods for magnetohydrodynamics
+1. Multigrid methods for magnetohydrodynamics
 
 #### Homework
 
@@ -361,16 +289,10 @@ three course multigrid series, for which this is the first.
 1. Modern mesh generation for fast multigrid solvers - hybrid
    structured/unstructured forest of octrees.
 
-#### Homework
-
-
 ### Class 27
 
 1. Modern mesh generation for fast multigrid solvers - hybrid
    structured/unstructured forest of octrees.
-
-#### Homework
-
 
 ## [Statements on Plagiarism](https://www.msu.edu/~ombud/academic-integrity/plagiarism-policy.html)
 
