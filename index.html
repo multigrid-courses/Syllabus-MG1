@@ -20,7 +20,7 @@
 
     <section class="main-content">
       <h1>
-<a id="syllabus-mg1" class="anchor" href="#syllabus-mg1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Syllabus-MG1</h1>
+<a id="syllabus" class="anchor" href="#syllabus" aria-hidden="true"><span class="octicon octicon-link"></span></a>Syllabus</h1>
 
 <h1>
 <a id="classic-multigrid-methods" class="anchor" href="#classic-multigrid-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Classic multigrid methods</h1>
@@ -64,22 +64,22 @@ as distributed repositories and collaboration.</p>
 
 <ol>
 <li>
-<strong>MG1</strong>: <em>Classic multigrid methods</em>
+<strong>Classic multigrid methods</strong>
 
 <ul>
 <li>Fast matrix-free geometric multigrid, algorithms and applications to elliptic and hyperbolic problems</li>
 </ul>
 </li>
 <li>
-<strong>MG2</strong>: <em>Algebraic multigrid methods</em>
+<em>Algebraic multigrid methods</em>
 
 <ul>
 <li>Flexible, grid-free, stored matrix multigrid for elliptic problems</li>
 </ul>
 </li>
 <li>
-<strong>MG3</strong>: <em>Contemporary Multigrid: Extreme-scale, emerging
-architectures, and special topics</em>
+<em>Contemporary multigrid methods: Emerging
+architectures, extreme-scale, and modern software engineering</em>
 
 <ul>
 <li>Hybrid geometric/algebraic multigrid with
@@ -91,7 +91,7 @@ Toolkit for Scientific Computing (PETSc) with applications to magnetohydrodynami
 </ol>
 
 <h2>
-<a id="prerequisites-for-mg1" class="anchor" href="#prerequisites-for-mg1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites for MG1</h2>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
 
 <ul>
 <li>A numerical analysis course (MSE XXX or equivalent)</li>
@@ -169,22 +169,38 @@ Here are the overall steps to turning in a homework assignment:</p>
 <li>Clone the repository to your computer:</li>
 </ol>
 
-<pre><code>git clone git@github.com:multigrid-courses/MG1-HW1
+<pre><code>git clone git@github.com:multigrid-courses/MG1;
+cd MG1
+</code></pre>
+
+<ol>
+<li>Update to get homework directory and files (eg, HW1)</li>
+</ol>
+
+<pre><code>git pull origin master;
+cd HW1
 </code></pre>
 
 <ol>
 <li>Modify the files to complete your solution.</li>
-<li>Make sure all of your code is committed:</li>
 </ol>
 
-<pre><code>git commit -am"all done"
+<pre><code>git add hw1.tex hw1.pdf
 </code></pre>
 
 <ol>
-<li>Push to GitHub to a branch user/assignment:</li>
+<li>Make sure all of your code is committed:</li>
 </ol>
 
-<pre><code>git push -u origin name/hw1
+<pre><code>git commit -am"all done with hw1"
+</code></pre>
+
+<ol>
+<li>Push to GitHub to a branch user: <em>name</em>
+</li>
+</ol>
+
+<pre><code>git push -u origin name
 </code></pre>
 
 <ol>
@@ -219,7 +235,7 @@ and submit a pull request.</li>
 <li>Multigrid framework: local and global processing [Y5:32]</li>
 </ol>
 
-<p>[class roster in Markdown file: name, year, major, do you have an application in mind?, ]</p>
+<p>[class roster in Markdown file: name, GitHub user <em>name</em>, department, do you have an application in mind?, ]</p>
 
 <h4>
 <a id="homework" class="anchor" href="#homework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h4>
