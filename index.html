@@ -23,7 +23,7 @@
 <a id="syllabus-mg1" class="anchor" href="#syllabus-mg1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Syllabus-MG1</h1>
 
 <h1>
-<a id="introduction-to-multigrid-methods-with-applications-to-elliptic-and-hyperbolic-problems" class="anchor" href="#introduction-to-multigrid-methods-with-applications-to-elliptic-and-hyperbolic-problems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction to multigrid methods with applications to elliptic and hyperbolic problems</h1>
+<a id="classic-multigrid-methods" class="anchor" href="#classic-multigrid-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Classic multigrid methods</h1>
 
 <ul>
 <li>
@@ -49,12 +49,12 @@
 <a id="course-description" class="anchor" href="#course-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Description</h2>
 
 <p>This is a graduate level coarse on Multigrid methods and is intended for a wide audience in the
-computational sciences.  Some analysis is presented but advanced multigrid
+computational sciences.  Some analysis is presented, but advanced multigrid
 theory, which is thoroughly covered by
 <a href="https://books.google.com/books/about/Multi_grid_methods_and_applications.html?id=Vf8_AQAAIAAJ">Hackbusch (1985)</a>,
 is not presented. A basic knowledge of analysis, partial differential equations, and
 numerical methods is assumed, as well as some experience with
-programming. We use Matlab from programming assignments and
+programming. We use Python for programming assignments and
 Git, hosted at <a href="https://github.com">GitHub</a>, for code and document management.
 This coarse introduces some ideas in modern software engineering such
 as distributed repositories and collaboration.</p>
@@ -64,16 +64,30 @@ as distributed repositories and collaboration.</p>
 
 <ol>
 <li>
-<strong>MG1</strong>: Introduction to multigrid methods with applications to elliptic and
-hyperbolic problems (this course)</li>
+<strong>MG1</strong>: <em>Classic multigrid methods</em>
+
+<ul>
+<li>Fast matrix-free geometric multigrid, algorithms and applications to elliptic and hyperbolic problems</li>
+</ul>
+</li>
 <li>
-<strong>MG2</strong>: Algebraic Multigrid with application to elasticity</li>
+<strong>MG2</strong>: <em>Algebraic multigrid methods</em>
+
+<ul>
+<li>Flexible, grid-free, stored matrix multigrid for elliptic problems</li>
+</ul>
+</li>
 <li>
-<strong>MG3</strong>: Contemporary Multigrid: hybrid structured/unstructured adaptive mesh refinement, hyperbolic
-problems with geometric multigrid, on emerging architectures,
+<strong>MG3</strong>: <em>Contemporary Multigrid: Extreme-scale, emerging
+architectures, and special topics</em>
+
+<ul>
+<li>Hybrid geometric/algebraic multigrid with
+structured/unstructured mesh refinement, on emerging architectures,
 advance scientific software engineering in the Portable Extensible
-Toolkit for Scientific Computing (PETSc) with applications to
-magnetohydrodynamics and computational fluid dynamics.</li>
+Toolkit for Scientific Computing (PETSc) with applications to magnetohydrodynamics.</li>
+</ul>
+</li>
 </ol>
 
 <h2>
@@ -264,6 +278,8 @@ and submit a pull request.</li>
 <li>
 <a href="http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf">Wesselings's <em>An Introduction to Multigrid Methods</em></a>
 Ch. 4 (basic iterative methods, skim ILU)</li>
+<li>Read "On Quantitative Analysis Methods for Multigrid Solutions",
+SIAM J. Sci. Comput., 27(1), 108-129</li>
 <li>Exercise 3 from Yavneh (HW3)</li>
 </ul>
 
