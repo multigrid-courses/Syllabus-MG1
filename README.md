@@ -1,5 +1,5 @@
 # Syllabus-MG1
-# Introduction to multigrid methods with applications to elliptic and hyperbolic problems
+# Classic multigrid methods
 * **Course:** [CMSE801, MSU](https://cmse.msu.edu/ "class home page?????")
 * **Instructor:** Mark Adams, [adams@msu.edu](adams@msu.edu "Instructor")
 * **Need help?**
@@ -10,26 +10,30 @@
 ## Course Description
 
 This is a graduate level coarse on Multigrid methods and is intended for a wide audience in the
-computational sciences.  Some analysis is presented but advanced multigrid
+computational sciences.  Some analysis is presented, but advanced multigrid
 theory, which is thoroughly covered by
 [Hackbusch (1985)](https://books.google.com/books/about/Multi_grid_methods_and_applications.html?id=Vf8_AQAAIAAJ),
 is not presented. A basic knowledge of analysis, partial differential equations, and
 numerical methods is assumed, as well as some experience with
-programming. We use Matlab from programming assignments and
+programming. We use Python for programming assignments and
 Git, hosted at [GitHub](https://github.com), for code and document management.
 This coarse introduces some ideas in modern software engineering such
 as distributed repositories and collaboration.
 
 ##  Overview of Multigrid Course Series 
 
-1. **MG1**: Introduction to multigrid methods with applications to elliptic and
-   hyperbolic problems (this course)
-1. **MG2**: Algebraic Multigrid with application to elasticity
-1. **MG3**: Contemporary Multigrid: hybrid structured/unstructured adaptive mesh refinement, hyperbolic
-  problems with geometric multigrid, on emerging architectures,
+1. **MG1**: *Classic multigrid methods*
+   * Fast matrix-free geometric multigrid, algorithms and applications to elliptic and hyperbolic problems
+1. **MG2**: *Algebraic multigrid methods*
+   * Flexible, grid-free, stored matrix multigrid for elliptic problems
+1. **MG3**: *Contemporary Multigrid: Extreme-scale, emerging
+architectures, and special topics*
+	* Hybrid geometric/algebraic multigrid with
+  structured/unstructured mesh refinement, on emerging architectures,
   advance scientific software engineering in the Portable Extensible
   Toolkit for Scientific Computing (PETSc) with applications to
-  magnetohydrodynamics and computational fluid dynamics.
+  
+  magnetohydrodynamics.
 
 ## Prerequisites for MG1
 
@@ -151,7 +155,9 @@ three course multigrid series, for which this is the first.
 #### Homework
 
 * [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
-  Ch. 4 (basic iterative methods, skim ILU)
+Ch. 4 (basic iterative methods, skim ILU)
+* Read "On Quantitative Analysis Methods for Multigrid Solutions",
+  SIAM J. Sci. Comput., 27(1), 108-129
 * Exercise 3 from Yavneh (HW3)
 
 ### Class 6
