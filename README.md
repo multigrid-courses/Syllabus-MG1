@@ -31,9 +31,7 @@ architectures, and special topics*
 	* Hybrid geometric/algebraic multigrid with
   structured/unstructured mesh refinement, on emerging architectures,
   advance scientific software engineering in the Portable Extensible
-  Toolkit for Scientific Computing (PETSc) with applications to
-  
-  magnetohydrodynamics.
+  Toolkit for Scientific Computing (PETSc) with applications to magnetohydrodynamics.
 
 ## Prerequisites for MG1
 
