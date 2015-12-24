@@ -85,16 +85,25 @@ Here are the overall steps to turning in a homework assignment:
 1. Fork the repository for the exercise or project (found under [github.com/multigrid-courses](https://github.com/multigrid-courses)).
 1. Clone the repository to your computer:
 ```
-git clone git@github.com:multigrid-courses/MG1/HW1
+git clone git@github.com:multigrid-courses/MG1;
+cd MG1
+```
+1. Update to get homework directory and files (eg, HW1)
+```
+git pull origin master;
+cd HW1
 ```
 1. Modify the files to complete your solution.
+```
+git add hw1.tex hw1.pdf
+```
 1. Make sure all of your code is committed:
 ```
-git commit -am"all done"
+git commit -am"all done with hw1"
 ```
-1. Push to GitHub to a branch user/assignment:
+1. Push to GitHub to a branch user: *name*
 ```
-git push -u origin name/hw1
+git push -u origin name
 ```
 1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the original repository. All assignments are due at the start of the following class, unless otherwise specified.
 1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let us know it's been updated.
@@ -118,7 +127,7 @@ three course multigrid series, for which this is the first.
   and submit a pull request.
 1. Multigrid framework: local and global processing [Y5:32]
 
-[class roster in Markdown file: name, year, major, do you have an application in mind?, ]
+[class roster in Markdown file: name, GitHub user *name*, department, do you have an application in mind?, ]
 
 #### Homework
 
