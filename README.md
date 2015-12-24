@@ -66,18 +66,18 @@ facilities, with courses at Rice University and KAUST.
 
 ## Course Material
 
-* [*An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
+* [*An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf),
 by Wesseling, is used as the main text
 	- May ignore discussion on meshing, parallel programing,
-      "structure diagrams", and skip ILU and complexity analysis
-* [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC)
-Trottenberg, Oosterlee, and Schüller, is an excellent book and is
-recommended as a reference
-	- My multigrid bible
+      structure diagrams, and skim ILU and complexity analysis
+* [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC), by
+Trottenberg, Oosterlee, and Schüller
+	* An excellent book
+	* Recommended as a reference
 * [*A Multigrid Tutorial*](https://books.google.com/books/about/A_Multigrid_Tutorial.html?id=oSTGBm64o1AC)  by Briggs, Henson, and McCormick, is a good general multigrid tutorial
 	- Go U.S.A.
 
-### Workflow
+### Git Workflow
 
 All code and documents will be managed using Git and hosted on [GitHub](https://github.com).
 Here are the overall steps to turning in a homework assignment:
@@ -109,11 +109,6 @@ git push -u origin name
 1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let us know it's been updated.
 
 Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request as the work is still in-progress if you are stuck and want to ask a question – just mention `@adams` with the question to make sure I know to look at it sooner.
-
-### Requirements
-
-* Any borrowed code must be properly [annotated](http://documentup.com/advanced-js/syllabus#statements-on-plagiarism/instructor).
-* Bonus points for Creativity (as long as requirements are fulfilled)
 
 ## Course Outline
 
@@ -233,13 +228,13 @@ Ch. 4 (basic iterative methods, skim ILU)
 
 * [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)  Ch. 8 (multigrid algorithms)
 * Exercise 9 from Yavneh (HW8)
-  
+   
 ### Class 16
 
 1. Indefinite operators [Y241-244]
 1. Full multigrid [Y245-249]
 1. Nonlinear multi grid and tau correction [Y250-258]
-
+ 
 ### Class 17
 
 1. Double discretization [Y259-272]
