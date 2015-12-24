@@ -1,4 +1,4 @@
-# Syllabus-MG1
+# Syllabus
 # Classic multigrid methods
 * **Course:** [CMSE801, MSU](https://cmse.msu.edu/ "class home page?????")
 * **Instructor:** Mark Adams, [adams@msu.edu](adams@msu.edu "Instructor")
@@ -22,18 +22,18 @@ as distributed repositories and collaboration.
 
 ##  Overview of Multigrid Course Series 
 
-1. **MG1**: *Classic multigrid methods*
+1. **Classic multigrid methods**
    * Fast matrix-free geometric multigrid, algorithms and applications to elliptic and hyperbolic problems
-1. **MG2**: *Algebraic multigrid methods*
+1. *Algebraic multigrid methods*
    * Flexible, grid-free, stored matrix multigrid for elliptic problems
-1. **MG3**: *Contemporary Multigrid: Extreme-scale, emerging
-architectures, and special topics*
+1. *Contemporary multigrid methods: Emerging
+architectures, extreme-scale, and modern software engineering*
 	* Hybrid geometric/algebraic multigrid with
   structured/unstructured mesh refinement, on emerging architectures,
   advance scientific software engineering in the Portable Extensible
   Toolkit for Scientific Computing (PETSc) with applications to magnetohydrodynamics.
 
-## Prerequisites for MG1
+## Prerequisites
 
 * A numerical analysis course (MSE XXX or equivalent)
 * A laptop in class for exercises, etc.
@@ -85,7 +85,7 @@ Here are the overall steps to turning in a homework assignment:
 1. Fork the repository for the exercise or project (found under [github.com/multigrid-courses](https://github.com/multigrid-courses)).
 1. Clone the repository to your computer:
 ```
-git clone git@github.com:multigrid-courses/MG1-HW1
+git clone git@github.com:multigrid-courses/MG1/HW1
 ```
 1. Modify the files to complete your solution.
 1. Make sure all of your code is committed:
