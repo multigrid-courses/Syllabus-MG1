@@ -122,11 +122,11 @@ three course multigrid series, for which this is the first.
   and submit a pull request.
 1. Multigrid framework: local and global processing [Y5:32]
 
-[class roster in Markdown file: name, GitHub user *name*, department, do you have an application in mind?, ]
+[class roster in Markdown file: name, GitHub *username*, department, do you have an application in mind?, ]
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2.1 - 2.4
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2
 * Exercise 2.2.1 in Wesseling (HW1)
 * Exercise 0 & 1 from Yavneh
 
