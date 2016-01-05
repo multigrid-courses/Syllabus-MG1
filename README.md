@@ -24,7 +24,7 @@ as distributed repositories and collaboration.
 
 1. **Classic multigrid methods**
    * Fast matrix-free geometric multigrid, algorithms and applications to elliptic and hyperbolic problems
-1. *Algebraic multigrid methods*
+1. *Algebraic multigrid methods and special topics*
    * Flexible, grid-free, stored matrix multigrid for elliptic problems
 1. *Contemporary multigrid methods: Emerging
 architectures, extreme-scale, and modern software engineering*
@@ -51,8 +51,8 @@ will encumber some hands-on class work.
 ## Course Overview
 
 We will cover basic iterative methods, Local Fourier Analysis (LFA),
-and two grid analysis. We go over basic smoother methods and intergrid
-transfer operators and analysis their potential efficacy on model
+and two grid analysis. We cover basic smoother methods and intergrid
+transfer operators and analysis and their potential efficacy on model
 elliptic and hyperbolic problems. We will consider operator dependent
 intergrid transfer operators and applications to problems in
 computational fluid dynamics.
@@ -61,7 +61,7 @@ Students will develop a multigrid solver in Matlab for programming
 projects and Git, hosted at [GitHub](https://github.com), for code and
 document management.
 
-The course will be co-instructed, via advanced teleconferencing
+The course will be co-instructed, via teleconferencing
 facilities, with courses at Rice University and KAUST.
 
 ## Course Material
@@ -70,8 +70,8 @@ facilities, with courses at Rice University and KAUST.
 by Wesseling, is used as the main text
 	- May ignore discussion on meshing, parallel programing,
       structure diagrams, and skim ILU and complexity analysis
-* [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC), by
-Trottenberg, Oosterlee, and Schüller
+* [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC),
+	  by Trottenberg, Oosterlee, and Schüller
 	* An excellent book
 	* Recommended as a reference
 * [*A Multigrid Tutorial*](https://books.google.com/books/about/A_Multigrid_Tutorial.html?id=oSTGBm64o1AC)  by Briggs, Henson, and McCormick, is a good general multigrid tutorial
@@ -108,7 +108,16 @@ git push -u origin name
 1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the original repository. All assignments are due at the start of the following class, unless otherwise specified.
 1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let us know it's been updated.
 
-Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request as the work is still in-progress if you are stuck and want to ask a question – just mention `@adams` with the question to make sure I know to look at it sooner.
+Feedback will be given in the pull request, so please respond with
+your thoughts and questions!  You are welcome to open the pull request
+as the work is still in-progress if you are stuck and want to ask a
+question – just mention `@adams` with the question to make sure I know
+to look at it sooner.
+
+Good solutions may be used for the posted sample solutions for future
+use in this course.
+These posted sample solutions - and your posted solutions - will be
+publicly visible. 
 
 ## Course Outline
 
@@ -126,13 +135,14 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 1 & 2
-* Exercise 2.2.1 in Wesseling (HW1)
+*  [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf): read Ch. 1 & **2.1-2.2**
+* [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC) Ch 1-3, **Ch 4.1-4.3**
+* Exercise 2.2.3 in Wesseling (HW1)
 * Exercise 0 & 1 from Yavneh
 
 ### Class 2
 
-1. Analysis of simple iterative method and multilevel application [Y33-47,Y48-54]
+1. Introduction to local Fourier analysis (LFA) of simple iterative method and multilevel application [Y33-47,Y48-54]
 1. The model problem, cyclic reduction, [Y48-53]
 
 ### Class 3
@@ -141,7 +151,7 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 3.1-3.5
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) **Ch. 3.1-3.5**
 * Exercise 2 from Yavneh (HW2)
 
 ### Class 4
@@ -157,7 +167,8 @@ three course multigrid series, for which this is the first.
 #### Homework
 
 * [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
-Ch. 4 (basic iterative methods, skim ILU)
+**Ch. 4.1-4.3**, Ch 4.4
+* [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC) **Ch 4.4-4.7**
 * Read "On Quantitative Analysis Methods for Multigrid Solutions",
   SIAM J. Sci. Comput., 27(1), 108-129
 * Exercise 3 from Yavneh (HW3)
@@ -172,7 +183,7 @@ Ch. 4 (basic iterative methods, skim ILU)
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) Ch. 5
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) **Ch. 5**
 * Exercise 4 from Yavneh (HW4)
 
 ### Class 8
@@ -185,7 +196,8 @@ Ch. 4 (basic iterative methods, skim ILU)
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)  Ch. 3.6, 3.6, 6 (coarse grid approximations and two grid analysis)
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
+  **Ch. 3.6, 3.6, 6**   (coarse grid approximations and two grid analysis)
 * Exercise 5 from Yavneh (HW5)
 
 ### Class 10
@@ -232,7 +244,7 @@ Ch. 4 (basic iterative methods, skim ILU)
 ### Class 16
 
 1. Indefinite operators [Y241-244]
-1. Full multigrid [Y245-249]
+1. Full multigrid [Y245-249 + FMG slide]
 1. Nonlinear multi grid and tau correction [Y250-258]
  
 ### Class 17
