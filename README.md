@@ -175,11 +175,11 @@ three course multigrid series, for which this is the first.
 
 ### Class 6
 
-1. IR/ICG Analysis [Y102-115] 
+1. Local Fourier Analysis [Y116-~130]
 
 ### Class 7
 
-1. Local Fourier Analysis [Y116-~130] 
+1. Local Fourier Analysis (continued) [Y~130-151] 
 
 #### Homework
 
@@ -188,11 +188,11 @@ three course multigrid series, for which this is the first.
 
 ### Class 8
 
-1. Local Fourier Analysis (continued) [Y~130-151]  
+1. H-Ellipticity [Y152-163]
 
 ### Class 9
 
-1. H-Ellipticity [Y152-163] 
+1. Finish up LFA and H-Ellipticity
 
 #### Homework
 
@@ -202,7 +202,8 @@ three course multigrid series, for which this is the first.
 
 ### Class 10
 
-1. Finish up LFA and H-Ellipticity
+1. Solver decision making and multigrid debugging work flow.
+1. IR/ICG Analysis [Y102-115] 
 
 ### Class 11
 
