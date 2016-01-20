@@ -67,7 +67,8 @@ facilities, with courses at Rice University and KAUST.
 ## Course Material
 
 * [*An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf),
-by Wesseling, is used as the main text
+by Wesseling, is used as the main text and a .pdf is available (due to
+a gap in the copyright)
 	- May ignore discussion on meshing, parallel programing,
       structure diagrams, and skim ILU and complexity analysis
 * [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC),
@@ -166,11 +167,9 @@ three course multigrid series, for which this is the first.
 
 #### Homework
 
-* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
-**Ch. 4.1-4.3**, Ch 4.4
+* [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf) **Ch. 4.1-4.3**, Ch 4.4
 * [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC) **Ch 4.4-4.7**
-* Read "On Quantitative Analysis Methods for Multigrid Solutions",
-  SIAM J. Sci. Comput., 27(1), 108-129
+* Read "On Quantitative Analysis Methods for Multigrid Solutions", SIAM J. Sci. Comput., 27(1), 108-129
 * Exercise 3 from Yavneh (HW3)
 
 ### Class 6
@@ -197,7 +196,10 @@ three course multigrid series, for which this is the first.
 #### Homework
 
 * [Wesselings's *An Introduction to Multigrid Methods*](http://docs.mak.ac.ug/sites/default/files/An%20Introduction%20to%20Multigrid%20Methods,%20by%20Pieter%20Wesseling.pdf)
-  **Ch. 3.6, 3.6, 6**   (coarse grid approximations and two grid analysis)
+  **Ch. 3.6, 3.6, 6**   (coarse grid approximations and two grid
+  analysis)
+* [*Multigrid*](https://books.google.com/books?id=-og1wD-Nx_wC) **p
+    120, 573-574**
 * Exercise 5 from Yavneh (HW5)
 
 ### Class 10
